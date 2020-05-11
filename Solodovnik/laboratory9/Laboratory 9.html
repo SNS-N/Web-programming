@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>laboratory8</title>
+<style>
+body {background: url("img/StarTreck.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+body {
+    font-weight: 200;
+    background-image: url(img/StarTreck.jpg);
+}
+
+</style>
+<!-- Owl Stylesheets and style-->
+<link rel="stylesheet" href="owlcarousel/css/docs.theme.min.css">   
+<link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="styleInput.css">
+</head>
+    
+<body style="text-align: center;">
+    
+<div class="container">
+    <br>
+    <!--head-->
+<h1 class="display1">Star trek Voyager</h1>
+       <div class="row text-center"> </div>
+       <br>
+       <br>
+<div class="row">
+  <div class="fadeOut owl-carousel owl-theme">
+      <!--card-->
+        <div >
+           <div class="card1">
+             <h4 class="card1-title">Звездолет</h4>
+             <img class="card1-img-top" src="img/StarShip.jpg">
+                <div class="card1-body">
+                  <p class="card1-text" id="A">USS Вояджер NCC-74656 — звездолёт класса Intrepid. Вышел из дока в 2371 году. На то&nbsp; время, является зведлетом с самыми передовыми технологиями</p>
+                </div>
+           </div>
+            <div><a href="http://seasonvar.ru/serial-78-Zvzdnij_Put__Voyadzher-1-season.html" class="btn1 btn1-primary">Сериал</a></div>
+        </div>      
+      <!--card-->
+         <div>
+              <div class="card1">
+                <h4 class="card1-title">Экипаж</h4>
+                <img class="card1-img-top" src="img/crew.jpg">
+                <div class="card1-body">
+                  <p class="card1-text" id="B">Экипаж корабля состоит из 130 человек. По ссылке будут пречислены все члены экипажа</p>
+                </div>
+             </div>
+              <div><a href="http://vladtrek.narod.ru/startrek/voy/crew.htm" class="btn1 btn1-primary">Экипаж</a></div>
+        </div>
+    <!--card-->
+        <div>
+               <div class="card1">
+               <h4 class="card1-title">Сериал</h4>
+               <img class="card1-img-top" src="img/series.jpg">
+               <div class="card1-body">
+                 <p class="card1-text" id="C">Космический корабль «Вояджер» Звездного Флота в первом же своем полете попадает в космическую аномалию, вследствие которой экипаж корабля переносится, через гиперпространство, в другую, неизведанную часть Галактики.</p>
+               </div>
+               </div>
+                 <div><a href="http://vladtrek.narod.ru/startrek/voy/ship_shem.htm" class="btn1 btn1-primary">Cхемы корабля</a></div>
+         </div>
+            <div class="foto">
+               <img src="img/Discovery.jpg">
+            </div>
+            <div class="foto">
+              <img src="img/Enterprise.jpg">
+            </div>
+            <div class="foto">
+              <img src="img/Excerlsior.jpg">
+            </div>
+            <div class="foto">
+              <img src="img/Voyagerjpg.jpg">
+            </div>
+     </div>
+</div>
+          <script>
+            jQuery(document).ready(function($) {
+              $('.fadeOut').owlCarousel({
+                items: 1,
+                animateOut: 'fadeOut',
+                loop: true,
+                margin: 10,
+              });
+              $('.custom1').owlCarousel({
+                animateOut: 'slideOutDown',
+                animateIn: 'flipInX',
+                items: 1,
+                margin: 30,
+                stagePadding: 30,
+                smartSpeed: 450
+              });
+            });
+          </script>
+        </div>
+      </div>
+    </section>
+<!-- javascript -->
+
+<script src="owlcarousel/js/jquery.min.js"></script>
+<script src="owlcarousel/js/owl.carousel.min.js"></script>
+<!--User script-->
+<script src="owlcarousel/js/main.js"></script> 
+</body>
+</html>
+
