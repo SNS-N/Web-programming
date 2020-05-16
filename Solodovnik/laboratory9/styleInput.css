@@ -140,3 +140,37 @@ h4,
   width: 100%;
   padding-right: 15px;
   padding-left: 15px; }
+
+.pq{
+	float: right;
+	border-left: 2px solid red;
+	font-size: 110%;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-left: 10px;
+	padding-left: 10px;
+	width: 200px;
+}
+
+.pq::first-letter{
+	text-transform: uppercase;
+}
+
+.card2 {
+    display1: -ms-flexbox;
+    display1: flex;
+    flex-direction: col1umn;
+    min-width: 0;
+    word-wrap: col1umn;
+    background: rgba(255, 245, 215, 0.5);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    bottom: auto;
+    height: auto;
+    border-radius: 20px;
+    font: 11pt "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: center;
+    max-width: 1200px;
+    left: 50%;
+    margin: auto;
+  }
